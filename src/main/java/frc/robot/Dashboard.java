@@ -25,8 +25,8 @@ public class Dashboard {
     //Put values that you want to use as use inputs here and set their default state
     public static void intializeDashboard() {
     	if(ENABLE_DASHBOARD){
-            SmartDashboard.putBoolean("Compressor ENABLE", true);
-            SmartDashboard.putBoolean("Limelight-LED Toggle", false);
+            //SmartDashboard.putBoolean("Compressor ENABLE", true);
+            //SmartDashboard.putBoolean("Limelight-LED Toggle", false);
         }
         dashThread.startPeriodic(0.02);
     }
