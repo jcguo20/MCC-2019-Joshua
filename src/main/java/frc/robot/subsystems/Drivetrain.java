@@ -55,7 +55,7 @@ public class Drivetrain extends Subsystem {
 
     differentialDrive = new DifferentialDrive(leftRearMotor, rightRearMotor);
 
-    differentialDrive.setRightSideInverted(false);
+    //differentialDrive.setRightSideInverted(false);
 
   }
 
